@@ -1,0 +1,115 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.navbar {
+    margin: 1%;
+}
+
+.nav-item {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: large;
+}
+
+.navbar-brand {
+    margin-right: 3%;
+}
+
+.box1 {
+    width: 600px;
+    height: 700px;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 7%;
+}
+
+.makeremote {
+    font-size: 90px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.box2 {
+    float: left;
+    margin-right: 18%;
+    margin-top: 1%;
+}
+
+.press-image {
+    width: 100px;
+    margin: 17px 17px 50px;
+}
+
+.getteam {
+    color: rgb(94, 94, 94);
+    width: 400px;
+    font-size: 18px;
+}
+
+.dropdown-item:active {
+    background-color: hsl(0, 0%, 98%);
+    color: rgb(94, 94, 94);
+}
+
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .nav-item {
+        margin-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 56px;
+        /* height of your navbar */
+        bottom: 0;
+        right: 0;
+
+        z-index: 1;
+        display: none;
+        overflow-y: auto;
+        background-color: #f8f9fa;
+        /* your desired background color */
+        width: 300px;
+    }
+
+    .navbar-collapse.show {
+        display: block;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    #login {
+        text-align: center;
+    }
+
+    #register {
+        width: 250px;
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+        border: none;
+    }
+}
